@@ -21,7 +21,10 @@ function distanceTravelledInFeet(x,y){
 
 //Given the same starting and ending block as the previous test (hint hint), return the fare for the customer. The first four hundred feet are free. For a distance between 400 and 2000 feet, the price is 2 cents per foot (not including 400, which are free!). Then Scuber charges a flat fare for a distance over 2000 feet and under 2500 feet. Finally, Scuber does not allow any rides over 2500 feet - the function returns 'cannot travel that far' if a ride over 2500 feet is requested.
 function calculatesFarePrice(x,y){
-  if(400<distanceTravelledInFeet(x,y)<2000){
+  if(distanceTravelledInFeet(x,y)<400){
+    return 0;
+  }
+  else if(400<distanceTravelledInFeet(x,y)<2000){
     return p1*(distanceTravelledInFeet(x,y)-400);
   }
   else if(distanceTravelledInFeet(x,y)>2000){
