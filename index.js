@@ -16,3 +16,5 @@ function distanceFromHqInFeet(y) {
 function distanceTravelledInFeet(x,y){
   return b*(Math.abs(y-x));
 }
+
+//
