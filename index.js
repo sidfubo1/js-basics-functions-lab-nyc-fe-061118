@@ -30,7 +30,7 @@ function calculatesFarePrice(x,y){
   else if(distanceTravelledInFeet(x,y)>2000){
     return flat_p2;
   }
-  else if(distanceTravelledInFeet(x,y)>2500){
+  else if(distanceTravelledInFeet(x,y)>=2500){
     return "Cannot travel that far"
   }
 }
