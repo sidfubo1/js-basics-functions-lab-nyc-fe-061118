@@ -25,7 +25,7 @@ function calculatesFarePrice(x,y){
     return "Ride is free"
   }
   else if(400<distanceTravelledInFeet(x,y)<2000){
-    return p1*distanceTravelledInFeet(x,y);
+    return p1*(distanceTravelledInFeet(x,y)-400);
   }
   else if(2000<distanceTravelledInFeet(x,y)<2500){
     return flat_p2;
