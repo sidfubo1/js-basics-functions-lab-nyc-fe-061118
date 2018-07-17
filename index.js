@@ -2,5 +2,5 @@
 let a=42;
 let b=42;
 function distanceFromHqInBlocks(x) {
-  return x-a;
+  return Math.abs(x-a);
 }
