@@ -8,5 +8,5 @@ function distanceFromHqInBlocks(x) {
 
 //Returns the number of feet from Scuber's headquarters to the pickup location.
 function distanceFromHqInFeet(y) {
-  return 264*(distanceFromHqInBlocks(x)-1);
+  return distanceFromHqInBlocks(y);
 }
