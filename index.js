@@ -11,3 +11,5 @@ function distanceFromHqInBlocks(x) {
 function distanceFromHqInFeet(y) {
   return b*distanceFromHqInBlocks(y);
 }
+
+//
