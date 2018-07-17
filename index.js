@@ -31,6 +31,6 @@ function calculatesFarePrice(x,y){
     return 25;
   }
   else if(distanceTravelledInFeet(x,y)>2500){
-    return "Cannot travel that far"
+    return "cannot travel that far";
   }
 }
